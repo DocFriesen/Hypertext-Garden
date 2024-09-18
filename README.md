@@ -6,10 +6,10 @@ The goal of this project is to provide a platform for my experiments in hypertex
 ## Planned Areas
 
 ### The Gate
-- Title & intro, maybe nav suggestions and "what's new
+- Title & intro, maybe random content suggestions and "what's new", path to the Square
 
 ### The Square
-- Many paths to take, some topic groupings / tags
+- Paths to the other areas, some topic groupings / tags
 
 ### The Garden
 - First draft notes, small ideas
