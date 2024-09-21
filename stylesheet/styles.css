@@ -4,7 +4,7 @@ html,body {
 }
 
 .heading-1 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .heading-2 {
@@ -17,7 +17,7 @@ html,body {
 
 /* header */
 
-.header {
+.banner-image {
     display: flex;
     justify-content: center;
     margin-top: -10px;
@@ -31,7 +31,7 @@ html,body {
 
 .main-section {
     display: grid;
-    grid-template-columns: 400px 300px 400px;
+    grid-template-columns: 400px 350px 400px;
     grid-column-gap: 20px;
     justify-content: space-evenly;
 }
@@ -88,7 +88,7 @@ html,body {
 }
 
 .heading-message-body {
-    margin-bottom: 100px;
+    line-height: 150%;
 }
 
 .square-entrance {
@@ -96,6 +96,7 @@ html,body {
     justify-content: center;
     border: 2px solid black;
     padding: 50px;
+    margin-bottom: 50px;
 }
 
 /* right section */
@@ -133,10 +134,20 @@ html,body {
     padding-bottom: 10px;
 }
 
-/* About */
+/* Footer */
+
+.footer {
+    margin-top: 100px;
+}
 
 .about-section {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
 }
+
+.footer-image {
+    display: flex;
+    justify-content: center;
+    transform: rotate(180deg);
+}
+
