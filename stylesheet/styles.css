@@ -26,18 +26,23 @@ html,body {
 .site-title {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
 }
 /* main section */
 
 .main-section {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 400px 300px 400px;
     grid-column-gap: 20px;
     justify-content: space-evenly;
 }
 
 /* left section */
+
+.random-section {
+    padding: 0px 30px 30px 30px;
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 3px rgb(0 0 0 / 20%);
+}
 
 .random-section-title  {
     display: flex;
@@ -48,12 +53,22 @@ html,body {
     padding: 10%;
     margin-bottom: 20px;
     border-radius: 12px;
-    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 20%);
+    box-shadow: 1px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.random-card:hover {
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 20%);
 }
 
 .random-card-title {
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
+}
+
+.random-note-tags {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* middle section */
@@ -85,6 +100,12 @@ html,body {
 
 /* right section */
 
+.recommended-section {
+    padding: 0px 30px 30px 30px;
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 3px rgb(0 0 0 / 20%);
+}
+
 .recommended-section-title  {
     display: flex;
     justify-content: center;
@@ -94,12 +115,22 @@ html,body {
     padding: 10%;
     margin-bottom: 20px;
     border-radius: 12px;
-    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 20%);
+    box-shadow: 1px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.recommended-card:hover {
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 20%);
 }
 
 .recommended-card-title {
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
+}
+
+.recommended-note-tags {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* About */
