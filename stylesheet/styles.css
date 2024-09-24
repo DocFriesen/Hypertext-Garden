@@ -4,7 +4,7 @@ html,body {
 }
 
 .heading-1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .heading-2 {
@@ -27,6 +27,28 @@ html,body {
     display: flex;
     justify-content: center;
 }
+
+/* announcement section */
+
+.announcement-section {
+    display: grid;
+    grid-template-columns: 15% 20% 20% 20% 20%;
+    grid-column-gap: 30px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.announcement-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 20%);
+}
+
+.card-1 {
+    grid-column-start: 2;
+}
+
 /* main section */
 
 .main-section {
@@ -87,26 +109,16 @@ html,body {
     flex-direction: column;
 }
 
+.square-link {
+    display: flex;
+    justify-content: center;
+}
+
 .square-entrance {
     display: flex;
     justify-content: center;
-    border: 2px solid black;
     padding: 50px;
     margin-bottom: 50px;
-}
-
-.heading-message {
-    display: flex;
-    flex-direction: column;
-}
-
-.heading-message-title {
-    text-align: center;
-}
-
-.heading-message-body {
-    line-height: 150%;
-    text-align: center;
 }
 
 /* right section */
