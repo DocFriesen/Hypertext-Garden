@@ -36,6 +36,15 @@ html,body {
     justify-content: space-evenly;
 }
 
+.card-link {
+    color: rgb(97, 93, 93);
+    text-decoration: none;
+}
+
+.card-link:hover {
+    color: black;
+}
+
 /* left section */
 
 .random-section {
@@ -78,25 +87,26 @@ html,body {
     flex-direction: column;
 }
 
-.heading-message {
-    display: flex;
-    flex-direction: column;
-}
-
-.heading-message-title {
-    display: flex;
-}
-
-.heading-message-body {
-    line-height: 150%;
-}
-
 .square-entrance {
     display: flex;
     justify-content: center;
     border: 2px solid black;
     padding: 50px;
     margin-bottom: 50px;
+}
+
+.heading-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-message-title {
+    text-align: center;
+}
+
+.heading-message-body {
+    line-height: 150%;
+    text-align: center;
 }
 
 /* right section */

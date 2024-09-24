@@ -6,30 +6,38 @@ The goal of this project is to provide a platform for my experiments in hypertex
 ## Planned Areas
 
 ### The Gate
-- Title & intro, maybe random content suggestions and "what's new", path to the Square
+- Title & intro, random & recommended suggestions, path to the Square
 
 ### The Square
-- Paths to the other areas, some topic groupings / tags
+- Paths to other locations, list of tags to explore
 
 ### The Garden
-- First draft notes, small ideas
+- First draft notes, small ideas that are sprouting before being moved to other locations
 
-### The Aquarium
-- Biology observations and studies
+### The Grotto
+- Natural observations, topics, and studies
+- Human evolution
+
+### The Library
+- Meditations on art and culture
+
+### The Shrine
+- Notes on psychology and psychiatry
+- Human mind
 
 ### The Lab
 - Notes on science methods
-- Notes on psychology and psychiatry
+- Bioengineering, neuroscience, animal studies, etc
 
 ### The Workbench
 - Notes on work and business
-- Notes on engineering
+- Notes on frontend / backend engineering
+- Notes on electronics
+- Machine learning
 
-### The Jungle
-- Notes on random interests
-
-### The Beyond
-- Speculations on the future, ought claims
+### The Mezzanine
+- Notes on social phenomena
+- Current events, social organization, etc.
 
 ### The Board (stats and figures)
 - Trends in writing topics, frequency, etc.
