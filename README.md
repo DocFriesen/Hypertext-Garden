@@ -3,6 +3,10 @@
 ## Overview
 The goal of this project is to provide a platform for my experiments in hypertext gardening.
 
+My hope is to create a web "experience" in the same way that the early Internet felt like an "experience" - stumbling through loosely ranked links to explore the machinations of enterprising tinkerers.
+
+As opposed to the experience of ranked search and highly structured websites, a hypertext garden can inspire a sense of mystery and curiosity.
+
 ## Planned Areas
 
 ### The Gate
@@ -18,8 +22,9 @@ The goal of this project is to provide a platform for my experiments in hypertex
 - Natural observations, topics, and studies
 - Human evolution
 
-### The Library
-- Meditations on art and culture
+### The Atelier
+- Meditations on literature
+- Visual arts and why they work
 
 ### The Shrine
 - Notes on psychology and psychiatry

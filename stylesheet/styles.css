@@ -53,9 +53,11 @@ html,body {
 
 .main-section {
     display: grid;
-    grid-template-columns: 400px 350px 400px;
-    grid-column-gap: 20px;
-    justify-content: space-evenly;
+    grid-template-columns: 30% 40% 30%;
+    grid-column-gap: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
 }
 
 .card-link {
@@ -104,22 +106,21 @@ html,body {
 
 /* middle section */
 
+.right-arrow {
+    margin-left: 10px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
 .middle-section {
     display: flex;
     flex-direction: column;
 }
 
-.square-link {
-    display: flex;
-    justify-content: center;
+.square-heading {
+
 }
 
-.square-entrance {
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    margin-bottom: 50px;
-}
 
 /* right section */
 
