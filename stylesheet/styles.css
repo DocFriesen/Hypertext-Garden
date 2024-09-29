@@ -30,6 +30,8 @@ a:link { text-decoration: none; }
     justify-content: center;
 }
 
+/* Home Page */
+
 /* announcement section */
 
 .announcement-section {
@@ -197,3 +199,34 @@ a:link { text-decoration: none; }
     transform: rotate(180deg);
 }
 
+/* Square Page */
+
+.square-main-section {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    justify-items: center;
+}
+
+.square {
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+}
+
+.square-row-1 {
+    display: flex;
+}
+
+.square-row-2 {
+    display: flex;
+}
+
+.square-row-3 {
+    display: flex;
+}
+
+.note-example {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 20%);
+}
