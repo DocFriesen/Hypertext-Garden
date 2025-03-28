@@ -15,7 +15,7 @@ As opposed to the experience of ranked search and highly structured websites, a 
 ### The Square
 - Paths to other locations, list of tags to explore
 
-### The Garden
+### The Greenhouse
 - First draft notes, small ideas that are sprouting before being moved to other locations
 
 ### The Grotto
@@ -35,10 +35,12 @@ As opposed to the experience of ranked search and highly structured websites, a 
 - Bioengineering, neuroscience, animal studies, etc
 
 ### The Workbench
-- Notes on work and business
 - Notes on frontend / backend engineering
 - Notes on electronics
 - Machine learning
+
+### The Office
+- Notes on work and business
 
 ### The Mezzanine
 - Notes on social phenomena
