@@ -144,6 +144,8 @@ a:link { text-decoration: none; }
 .square-image {
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index:-5;
 }
 
 /* right section */
