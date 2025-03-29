@@ -27,7 +27,8 @@ a:link { text-decoration: none; }
 
 .site-title {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Home Page */
@@ -203,27 +204,50 @@ a:link { text-decoration: none; }
 
 /* Square Page */
 
+/* Square */
 .square-main-section {
     display: grid;
     grid-template-columns: 90% 10%;
-    justify-items: center;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
 }
 
 .square {
     display: grid;
-    grid-template-rows: 30% 30% 30%;
+    grid-template-rows: 33% 33% 33%;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
 }
 
 .square-row-1 {
     display: flex;
+    justify-content: space-between;
 }
 
 .square-row-2 {
     display: flex;
+    justify-content: space-between
 }
 
 .square-row-3 {
     display: flex;
+    justify-content: space-between
+}
+
+.square-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.square-section-heading {
+    display: flex;
+    align-items: center;
+}
+
+.square-section-heading h2 {
+    margin-right: 10px;
 }
 
 .note-example {
@@ -231,4 +255,18 @@ a:link { text-decoration: none; }
     margin-bottom: 20px;
     border-radius: 12px;
     box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 20%);
+}
+
+
+
+/* Tag Board */
+.tag-board {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 20%);
+}
+
+.tag {
+    padding: 20px;
 }
