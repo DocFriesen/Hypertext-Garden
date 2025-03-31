@@ -204,7 +204,7 @@ a:link { text-decoration: none; }
 
 /* Square Page */
 
-/* Square */
+/* The Square */
 .square-main-section {
     display: grid;
     grid-template-columns: 90% 10%;
@@ -241,6 +241,11 @@ a:link { text-decoration: none; }
     padding: 20px;
 }
 
+.square-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .square-section-heading {
     display: flex;
     align-items: center;
@@ -250,13 +255,23 @@ a:link { text-decoration: none; }
     margin-right: 10px;
 }
 
+.square-icon {
+    display: flex;
+    align-items: center;
+}
+
+.square-notes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .note-example {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 12px;
     box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 20%);
 }
-
 
 
 /* Tag Board */
