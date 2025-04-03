@@ -277,6 +277,30 @@ img {
     padding: 20px;
 }
 
+
+/* Note Page */
+
+/* Note Header */
+.note-header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.note-location {
+    display: flex;
+}
+
+/* Note Content */
+.note-title {
+    display: flex;
+    justify-content: center;
+}
+
+.note-text {
+    display: flex;
+    justify-content: center;
+}
+
 /* Footer */
 
 .footer {
