@@ -290,16 +290,24 @@ img {
     display: flex;
 }
 
-/* Note Content */
-.note-title {
-    display: flex;
-    justify-content: center;
+.back-arrow {
+    transform: rotate(180deg);
 }
 
-.note-text {
-    display: flex;
-    justify-content: center;
+/* Note Content */
+.note-content {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    column-gap: 30px;
+    padding: 20px;
 }
+
+
+.note-title {
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* Footer */
 
